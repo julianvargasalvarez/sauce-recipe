@@ -1,0 +1,8 @@
+rest-url: "https://api.eu-west-3-lnbf.saucelabs.com/rest/v1"
+rest-url: "https://api.us-west-4-i3er.saucelabs.com/rest/v1"
+user: ""
+api-key: ""
+no-remove-colliding-tunnels: true
+vm-version: "v2alpha"
+tunnel-cert: private
+tunnel-identifier:

@@ -1,0 +1,22 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+paths:
+  /:
+    :
+      parameters:
+        - in: query
+          name:
+          schema:
+            type:
+          required:
+          example:
+      responses:
+        '200':
+          description: Returns the best sauce for the given food.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+              example:

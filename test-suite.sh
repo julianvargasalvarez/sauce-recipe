@@ -10,3 +10,7 @@ $HOME/.deno/bin/deno test --allow-net
 docker stop $(docker ps -q)
 cd ..
 
+echo "Running backend tests"
+cd sauce-server
+$HOME/.deno/bin/deno test 
+cd ..

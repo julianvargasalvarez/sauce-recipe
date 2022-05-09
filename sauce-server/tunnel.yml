@@ -1,8 +1,7 @@
 rest-url: "https://api.eu-west-3-lnbf.saucelabs.com/rest/v1"
-rest-url: "https://api.us-west-4-i3er.saucelabs.com/rest/v1"
-user: ""
-api-key: ""
+user: "oauth-julian.vargas-e98bb"
+api-key: "62762380-cefd-42e5-92b7-53a7e68d6831"
 no-remove-colliding-tunnels: true
 vm-version: "v2alpha"
 tunnel-cert: private
-tunnel-identifier:
+tunnel-identifier: contract-testing-prod

@@ -1,6 +1,8 @@
 openapi: "3.0.0"
 info:
   version: 1.0.0
+servers:
+  - url: http://localhost:8000
 paths:
   /sauce:
     get:
@@ -19,8 +21,8 @@ paths:
               schema:
                 type: object
                 properties:
-                  sauce_name:
+                  deliciousSauce:
                     required: true
                     type: string
               example:
-                sauce_name: ketchup
+                deliciousSauce: ketchup

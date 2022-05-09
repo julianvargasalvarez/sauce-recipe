@@ -21,8 +21,8 @@ paths:
               schema:
                 type: object
                 properties:
-                  deliciousSauce:
+                  sauce_name:
                     required: true
                     type: string
               example:
-                deliciousSauce: ketchup
+                sauce_name: ketchup

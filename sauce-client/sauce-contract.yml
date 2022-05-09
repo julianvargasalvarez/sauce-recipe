@@ -2,15 +2,15 @@ openapi: "3.0.0"
 info:
   version: 1.0.0
 paths:
-  /:
-    :
+  /sauce:
+    get:
       parameters:
         - in: query
-          name:
+          name: _for
           schema:
-            type:
-          required:
-          example:
+            type: string
+          required: true
+          example: fries
       responses:
         '200':
           description: Returns the best sauce for the given food.
@@ -19,4 +19,8 @@ paths:
               schema:
                 type: object
                 properties:
+                  sauce_name:
+                    required: true
+                    type: string
               example:
+                sauce_name: ketchup

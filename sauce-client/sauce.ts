@@ -1,5 +1,5 @@
-export async function sauceFor(): Promise<string> {
-  const jsonResponse = await fetch(`http://localhost:5000/`);
+export async function sauceFor(food: string): Promise<string> {
+  const jsonResponse = await fetch(`http://localhost:5000/sauce/?_for=${food}`);
   const jsonData = await jsonResponse.json();
-  return jsonData.;
+  return jsonData.sauce_name;
 }

@@ -4,15 +4,18 @@
   <a href="https://github.com/julianvargasalvarez/sauce-recipe">
     <img src="images/sauce-logo.jpg" alt="Logo" width="80" height="80">
   </a>
+</div>
 
 <h3 align="center">Integrating contract tests in a continuous integration pipeline</h3>
 
 ## About The Project
 
+  
 This is an example application that shows how to integrate contract testing for producer and consumer in a continuous integration pipeline by using SauceLabs tools, specially API Testing.
 
 Take a look at the slides 'SauceCon22 - Contract Testing.pdf'
 
+  
 ### Built With
 
 * [Deno.js](https://deno.land/)

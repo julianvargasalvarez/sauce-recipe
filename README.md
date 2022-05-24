@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/julianvargasalvarez/sauce-recipe">
-    <img src="images/sauce-logo.jpg" alt="Logo" width="80" height="80">
+    <img src="images/sauce-logo.jpg" alt="Logo" width="792" height="234">
   </a>
 </div>
 
